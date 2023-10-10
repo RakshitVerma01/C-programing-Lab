@@ -2,12 +2,12 @@
 void main ()
 {
     int a,b;
-    printf("Enter any number to check to whether it is odd or even:-");
+    printf("Enter the number");
     scanf("%d",&a);
     b=a%2;
     if (b==0)
     {
-        printf("%d is even",a);
+        printf("It is even",a);
     } 
-    else { printf("%d is odd",a);}
+    else { printf("It is odd",a);}
 }
